@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Страница — 1" id="OKbtUOt_FvHwJphNDFCd">
+    <mxGraphModel dx="1124" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-1" value=":Patient" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="90" as="sourcePoint" />
+            <mxPoint x="460" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.494;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;endSize=10;strokeWidth=2;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.44000000000005" y="89.63999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-8" value="1: Authorize" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="60" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-11" value="2: AppointmentDiscription" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-14" value=":Registry&lt;div&gt;Page&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=none;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-15" target="YuqfwTARV5xfNuHCGX9C-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endSize=10;endArrow=open;endFill=0;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-15" target="YuqfwTARV5xfNuHCGX9C-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-15" value="Appointment&lt;div&gt;Control&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="50" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-17" value=": Doctors&lt;div&gt;TimeSheet&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endSize=10;endArrow=open;endFill=0;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-21" value=":Tickets&lt;div&gt;Page&lt;/div&gt;" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-22" value="3: GetDoctorsTimes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="420" y="188" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.983;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;endArrow=open;endFill=0;endSize=10;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-17" target="YuqfwTARV5xfNuHCGX9C-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-24" value="4: Show Avalible Times" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="298" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endSize=10;exitX=0.258;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-26" value="5:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=45;" vertex="1" parent="1">
+          <mxGeometry x="145" y="188" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=10;strokeWidth=2;endArrow=open;endFill=0;" edge="1" parent="1" source="YuqfwTARV5xfNuHCGX9C-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-27" value=": Appointment&lt;div&gt;Control&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="90" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endSize=10;strokeWidth=2;endArrow=open;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="150" as="sourcePoint" />
+            <mxPoint x="190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-29" value="6: Choose Datetime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-32" value="8: Create Appointment Record" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-34" value="7:&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="215" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuqfwTARV5xfNuHCGX9C-36" value=": Doctors&lt;div&gt;TimeSheet&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="472.5" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
