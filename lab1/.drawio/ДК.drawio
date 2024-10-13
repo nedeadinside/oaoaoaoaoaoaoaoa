@@ -33,9 +33,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8DzQPMHV4gqtvkiuF4C8-29" value="1.1: CreatePatientRecord(&lt;div&gt;complaints: String,&lt;/div&gt;&lt;div&gt;patient: Patient)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8DzQPMHV4gqtvkiuF4C8-1" vertex="1">
-          <mxGeometry x="410" y="25" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="8DzQPMHV4gqtvkiuF4C8-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;endSize=10;endArrow=open;endFill=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="8DzQPMHV4gqtvkiuF4C8-1" source="8DzQPMHV4gqtvkiuF4C8-5" target="8DzQPMHV4gqtvkiuF4C8-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="110" as="sourcePoint" />
@@ -45,8 +42,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8DzQPMHV4gqtvkiuF4C8-34" value="1.2 department=ChooseDepartment(complaints)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8DzQPMHV4gqtvkiuF4C8-1" vertex="1">
-          <mxGeometry x="600" y="125" width="280" height="30" as="geometry" />
+        <mxCell id="8DzQPMHV4gqtvkiuF4C8-34" value="1.2: CreatePatientRecord(&lt;div&gt;complaints: String,&lt;/div&gt;&lt;div&gt;patient: Patient,&lt;/div&gt;&lt;div&gt;department: String)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="8DzQPMHV4gqtvkiuF4C8-1" vertex="1">
+          <mxGeometry x="610" y="105" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="8DzQPMHV4gqtvkiuF4C8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;endArrow=open;endFill=0;endSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="8DzQPMHV4gqtvkiuF4C8-1" source="8DzQPMHV4gqtvkiuF4C8-35" target="8DzQPMHV4gqtvkiuF4C8-50" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -73,6 +70,9 @@
         </mxCell>
         <mxCell id="8DzQPMHV4gqtvkiuF4C8-55" value="1.4 CreateAppointmentRecord(patient: Patient,&lt;div&gt;choosed_date: String,&lt;/div&gt;&lt;div&gt;complaints: String)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-25;" parent="8DzQPMHV4gqtvkiuF4C8-1" vertex="1">
           <mxGeometry x="170" y="180" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yqj3x8QXK3NBV1rLqHbO-2" value="1.1 department=ChooseDepartment(complaints)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8DzQPMHV4gqtvkiuF4C8-1">
+          <mxGeometry x="360" y="48" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
