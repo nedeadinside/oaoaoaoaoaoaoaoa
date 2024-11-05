@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
 public class Hospital
 {
     public string Name { get; set; }
@@ -27,7 +26,6 @@ public class Hospital
     }
 }
 
-
 public class Department
 {
     public string Name { get; set; }
@@ -39,9 +37,9 @@ public class Department
         Staff = new List<MedicalWorker>();
     }
 
-    public MedicalWorker AddStaff(string post)
+    public void AddStaff(MedicalWorker mw)
     {
-        // Реализация
+        Staff.Add(mw);
     }
 
     public void RemoveStaff(MedicalWorker mw)
@@ -55,7 +53,6 @@ public class Department
     }
 }
 
-
 public class Reception
 {
     public string PhoneNumber { get; set; }
@@ -67,19 +64,45 @@ public class Reception
         Appointments = new List<Appointment>();
     }
 
-    public List<Appointment> ScheduleAppointment(Patient p, string complaints, DateTime datetime)
+    public void ScheduleAppointment(Patient p, string complaints, DateTime datetime)
     {
-        // Реализация
+        Department dep = ChooseDepartment(complaints);
+        if (dep == null)
+        {
+            throw new InvalidOperationException("No suitable department found.");
+        }
+
+        List<MedicalWorker> staff = dep.GetStaff();
+        MedicalWorker selectedWorker = null;
+
+        foreach (var worker in staff)
+        {
+            if (worker.CheckAvailability(new List<DateTime> { datetime }))
+            {
+                selectedWorker = worker;
+                worker.ScheduleAppointment(new Appointment(datetime, p));
+                worker.ShowWH().UpdateSchedule(worker, datetime.Date, datetime.Date, datetime.TimeOfDay, datetime.TimeOfDay.Add(TimeSpan.FromHours(1)));
+                break;
+            }
+        }
+
+        if (selectedWorker == null)
+        {
+            throw new InvalidOperationException("No available medical worker found.");
+        }
+
+        Appointments.Add(new Appointment(datetime, p));
     }
 
     private Department ChooseDepartment(string complaints)
     {
-        // Реализация
+        // Реализация выбора департамента на основе жалоб
+        return null; // Заглушка
     }
 
     public void CancelAppointment(Appointment a, Patient p)
     {
-        // Реализация
+        Appointments.Remove(a);
     }
 
     public void CreateMedicineCard(Patient p)
@@ -90,14 +113,14 @@ public class Reception
     public MedicalCard GetMedicalCard(Patient p)
     {
         // Реализация
+        return null; // Заглушка
     }
 
     public List<Appointment> GetAppointments(Patient p)
     {
-        // Реализация
+        return Appointments.Where(a => a.Patient == p).ToList();
     }
 }
-
 
 public class Patient
 {
@@ -115,6 +138,41 @@ public class Patient
         Appointments = new List<Appointment>();
     }
 
+    public void CameAppointment()
+    {
+        if (Appointments.Count == 0)
+        {
+            throw new InvalidOperationException("No appointments found for the patient.");
+        }
+
+        var appointment = Appointments.Last();
+        var doctor = appointment.Staff.OfType<Doctor>().FirstOrDefault();
+
+        if (doctor == null)
+        {
+            throw new InvalidOperationException("No doctor found in the appointment.");
+        }
+
+        var complaints = GetComplaints();
+        doctor.ComplaintsAnalysis(complaints);
+
+        var medicalCard = appointment.Mc;
+        var diagnoses = medicalCard.GetPatientDiagnosis(this);
+
+        var bad_treatment = doctor.PatientCheckup(this);
+
+        var diagnosis = diagnoses.FirstOrDefault();
+        if (diagnosis != null && bad_treatment)
+        {
+            medicalCard.UpdateDiagnosis(diagnosis);
+            diagnosis.UpdateTreatment("Updated Treatment");
+        }
+        else
+        {
+            throw new InvalidOperationException("No valid diagnosis or treatment found.");
+        }
+    }
+
     public List<string> GetComplaints()
     {
         return Complaints;
@@ -124,13 +182,7 @@ public class Patient
     {
         // Реализация
     }
-
-    public void CameAppointment(Patient p)
-    {
-        // Реализация
-    }
 }
-
 
 public class Appointment
 {
@@ -155,6 +207,7 @@ public class MedicalWorker
     public MedicalWorker(string name)
     {
         Name = name;
+        WorkingHours = new TimeSheet();
     }
 
     public void ScheduleAppointment(Appointment app)
@@ -166,8 +219,24 @@ public class MedicalWorker
     {
         return WorkingHours;
     }
-}
 
+    public bool CheckAvailability(List<DateTime> datetimes)
+    {
+        var timesheets = WorkingHours.getSchedule(this);
+        foreach (var datetime in datetimes)
+        {
+            foreach (var entry in timesheets)
+            {
+                if (entry.StartDate <= datetime && entry.EndDate >= datetime &&
+                    entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+}
 
 public class Nurse : MedicalWorker
 {
@@ -189,7 +258,6 @@ public class Nurse : MedicalWorker
     }
 }
 
-
 public class Doctor : MedicalWorker
 {
     public string Specialization { get; set; }
@@ -204,9 +272,10 @@ public class Doctor : MedicalWorker
         // Реализация
     }
 
-    public void PatientCheckup(Patient p)
+    public bool PatientCheckup(Patient p)
     {
         // Реализация
+        return false; // Заглушка
     }
 
     public void AddDiagnosis(MedicalCard medicalCard)
@@ -220,7 +289,6 @@ public class Doctor : MedicalWorker
     }
 }
 
-
 public class ScheduleEntry
 {
     public MedicalWorker Worker { get; set; }
@@ -229,7 +297,6 @@ public class ScheduleEntry
     public TimeSpan StartTime { get; set; }
     public TimeSpan EndTime { get; set; }
 }
-
 
 public class TimeSheet
 {
@@ -277,7 +344,6 @@ public class TimeSheet
     }
 }
 
-
 public class MedicalCard
 {
     public int Number { get; set; }
@@ -301,7 +367,6 @@ public class MedicalCard
         // Реализация
     }
 }
-
 
 public class Diagnosis
 {
