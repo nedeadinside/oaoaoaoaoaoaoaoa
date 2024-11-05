@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="Страница — 1" id="hKj7CmazhqKdd8WwJHWp">
-    <mxGraphModel dx="1500" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
           <mxGeometry x="-392.56" y="566.7099999999999" width="333.12" height="141.97" as="geometry" />
         </mxCell>
         <mxCell id="cYZlChJQ-sGTbZ9Pjbkg-51" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Appointment&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ date:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;DateTime&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ staff: MedicalWorker[*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ patient: Patient&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="140" y="593.6800000000001" width="170" height="88.02" as="geometry" />
+          <mxGeometry x="140" y="595.6300000000001" width="170" height="88.02" as="geometry" />
         </mxCell>
         <mxCell id="cYZlChJQ-sGTbZ9Pjbkg-58" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MedicalCard&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ number: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ patient: Patient&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPatientDiagnosis(p: Patient): Diagnosis[*]&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ updateDiagnosis(d: Diagnosis)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-358" y="930" width="264" height="122.5" as="geometry" />
@@ -151,13 +151,13 @@
         <mxCell id="E-bbsvXQKNSzDjorVgvr-2" value="-timesheet" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="840" y="610" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wyc2RLw6dSbeaW1rhnmd-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="cYZlChJQ-sGTbZ9Pjbkg-41" target="cYZlChJQ-sGTbZ9Pjbkg-58">
+        <mxCell id="wyc2RLw6dSbeaW1rhnmd-2" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="cYZlChJQ-sGTbZ9Pjbkg-41" target="cYZlChJQ-sGTbZ9Pjbkg-58" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-350" y="860" as="sourcePoint" />
             <mxPoint x="-190" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyc2RLw6dSbeaW1rhnmd-4" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyc2RLw6dSbeaW1rhnmd-2">
+        <mxCell id="wyc2RLw6dSbeaW1rhnmd-4" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyc2RLw6dSbeaW1rhnmd-2" vertex="1" connectable="0">
           <mxGeometry x="-0.8884" y="-1" relative="1" as="geometry">
             <mxPoint x="-10" as="offset" />
           </mxGeometry>
