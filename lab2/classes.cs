@@ -220,22 +220,20 @@ public class MedicalWorker
         return WorkingHours;
     }
 
-    public bool CheckAvailability(List<DateTime> datetimes)
+public bool CheckAvailability(List<DateTime> datetimes)
+{
+    var timesheets = WorkingHours.getSchedule(this);
+    for (int i = 0; i < timesheets.Count; i++)
     {
-        var timesheets = WorkingHours.getSchedule(this);
-        foreach (var datetime in datetimes)
+        var entry = timesheets[i];
+        if (datetimes.Any(datetime => 
+            entry.StartDate <= datetime && entry.EndDate >= datetime &&
+            entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay))
         {
-            foreach (var entry in timesheets)
-            {
-                if (entry.StartDate <= datetime && entry.EndDate >= datetime &&
-                    entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay)
-                {
-                    return true;
-                }
-            }
+            return true;
         }
-        return false;
     }
+    return false;
 }
 
 public class Nurse : MedicalWorker
