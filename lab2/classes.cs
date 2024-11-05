@@ -146,7 +146,8 @@ public class Patient
         }
 
         var appointment = Appointments.Last();
-        var doctor = appointment.Staff.OfType<Doctor>().FirstOrDefault();
+        var staff = appointment.Staff;
+        var doctor = staff.OfType<Doctor>().FirstOrDefault();
 
         if (doctor == null)
         {
@@ -154,22 +155,25 @@ public class Patient
         }
 
         var complaints = GetComplaints();
-        doctor.ComplaintsAnalysis(complaints);
+        var res = doctor.ComplaintsAnalysis(complaints);
 
-        var medicalCard = appointment.Mc;
-        var diagnoses = medicalCard.GetPatientDiagnosis(this);
+        var mc = appointment.Mc;
+        var diagnoses = mc.GetPatientDiagnosis(this);
 
-        var bad_treatment = doctor.PatientCheckup(this);
+        var badTreatment = doctor.PatientCheckup(this);
 
-        var diagnosis = diagnoses.FirstOrDefault();
-        if (diagnosis != null && bad_treatment)
+        if (badTreatment)
         {
-            medicalCard.UpdateDiagnosis(diagnosis);
-            diagnosis.UpdateTreatment("Updated Treatment");
-        }
-        else
-        {
-            throw new InvalidOperationException("No valid diagnosis or treatment found.");
+            var diagnosis = diagnoses.FirstOrDefault();
+            if (diagnosis != null)
+            {
+                diagnosis.UpdateTreatment("Updated Treatment");
+                mc.UpdateDiagnosis(diagnosis);
+            }
+            else
+            {
+                throw new InvalidOperationException("No valid diagnosis found.");
+            }
         }
     }
 
@@ -220,20 +224,21 @@ public class MedicalWorker
         return WorkingHours;
     }
 
-public bool CheckAvailability(List<DateTime> datetimes)
-{
-    var timesheets = WorkingHours.getSchedule(this);
-    for (int i = 0; i < timesheets.Count; i++)
+    public bool CheckAvailability(List<DateTime> datetimes)
     {
-        var entry = timesheets[i];
-        if (datetimes.Any(datetime => 
-            entry.StartDate <= datetime && entry.EndDate >= datetime &&
-            entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay))
+        var timesheets = WorkingHours.getSchedule(this);
+        for (int i = 0; i < timesheets.Count; i++)
         {
-            return true;
+            var entry = timesheets[i];
+            if (datetimes.Any(datetime => 
+                entry.StartDate <= datetime && entry.EndDate >= datetime &&
+                entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay))
+            {
+                return true;
+            }
         }
+        return false;
     }
-    return false;
 }
 
 public class Nurse : MedicalWorker
@@ -315,6 +320,20 @@ public class TimeSheet
             StartTime = startTime,
             EndTime = endTime
         });
+    }    public bool CheckAvailability(List<DateTime> datetimes)
+    {
+        var timesheets = WorkingHours.getSchedule(this);
+        for (int i = 0; i < timesheets.Count; i++)
+        {
+            var entry = timesheets[i];
+            if (datetimes.Any(datetime => 
+                entry.StartDate <= datetime && entry.EndDate >= datetime &&
+                entry.StartTime <= datetime.TimeOfDay && entry.EndTime >= datetime.TimeOfDay))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void UpdateSchedule(MedicalWorker m, DateTime startDate, DateTime endDate, TimeSpan startTime, TimeSpan endTime)
