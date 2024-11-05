@@ -28,16 +28,46 @@ public class Hospital
 }
 
 
+public class Department
+{
+    public string Name { get; set; }
+    private List<MedicalWorker> Staff { get; set; }
+
+    public Department(string name)
+    {
+        Name = name;
+        Staff = new List<MedicalWorker>();
+    }
+
+    public MedicalWorker AddStaff(string post)
+    {
+        // Реализация
+    }
+
+    public void RemoveStaff(MedicalWorker mw)
+    {
+        Staff.Remove(mw);
+    }
+
+    public List<MedicalWorker> GetStaff()
+    {
+        return Staff;
+    }
+}
+
+
 public class Reception
 {
     public string PhoneNumber { get; set; }
+    private List<Appointment> Appointments { get; set; }
 
     public Reception(string phoneNumber)
     {
         PhoneNumber = phoneNumber;
+        Appointments = new List<Appointment>();
     }
 
-    public List<Appointment> ScheduleAppointment(Patient p, string complaints, string datetime)
+    public List<Appointment> ScheduleAppointment(Patient p, string complaints, DateTime datetime)
     {
         // Реализация
     }
@@ -69,43 +99,15 @@ public class Reception
 }
 
 
-public class Department
-{
-    public string Name { get; set; }
-    private List<MedicalWorker> Staff { get; set; }
-
-    public Department(string name)
-    {
-        Name = name;
-        Staff = new List<MedicalWorker>();
-    }
-
-    public MedicalWorker AddStaff(string post)
-    {
-        // Реализация
-    }
-
-    public void RemoveStaff(MedicalWorker mw)
-    {
-        Staff.Remove(mw);
-    }
-
-    public List<MedicalWorker> GetStaff()
-    {
-        return Staff;
-    }
-}
-
-
 public class Patient
 {
     public string Name { get; set; }
-    public string DateOfBirth { get; set; }
+    public DateTime DateOfBirth { get; set; }
     public List<string> Complaints { get; set; }
     private List<Appointment> Appointments { get; set; }
     private MedicalCard Mc { get; set; }
 
-    public Patient(string name, string dateOfBirth)
+    public Patient(string name, DateTime dateOfBirth)
     {
         Name = name;
         DateOfBirth = dateOfBirth;
@@ -118,7 +120,7 @@ public class Patient
         return Complaints;
     }
 
-    public void MakeAppointment(string complaints, List<string> datetimes)
+    public void MakeAppointment(string complaints, List<DateTime> datetimes)
     {
         // Реализация
     }
@@ -132,19 +134,18 @@ public class Patient
 
 public class Appointment
 {
-    public string DateTime { get; set; }
+    public DateTime Date { get; set; }
     public List<MedicalWorker> Staff { get; set; }
     public Patient Patient { get; set; }
     public MedicalCard Mc { get; set; }
 
-    public Appointment(string dateTime, Patient patient)
+    public Appointment(DateTime date, Patient patient)
     {
-        DateTime = dateTime;
+        Date = date;
         Patient = patient;
         Staff = new List<MedicalWorker>();
     }
 }
-
 
 public class MedicalWorker
 {
@@ -159,6 +160,11 @@ public class MedicalWorker
     public void ScheduleAppointment(Appointment app)
     {
         // Реализация
+    }
+
+    public TimeSheet ShowWH()
+    {
+        return WorkingHours;
     }
 }
 
@@ -300,11 +306,11 @@ public class MedicalCard
 public class Diagnosis
 {
     public string Description { get; set; }
-    public string DateDiagnosed { get; set; }
+    public DateTime DateDiagnosed { get; set; }
     public string Treatment { get; set; }
     private bool IsActive { get; set; }
 
-    public Diagnosis(string description, string dateDiagnosed, string treatment)
+    public Diagnosis(string description, DateTime dateDiagnosed, string treatment)
     {
         Description = description;
         DateDiagnosed = dateDiagnosed;
