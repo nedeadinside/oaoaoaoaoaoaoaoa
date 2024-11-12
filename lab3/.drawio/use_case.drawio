@@ -7,6 +7,9 @@
         <mxCell id="7emMQCzF219VfqyF9DS_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="7emMQCzF219VfqyF9DS_-1" target="7emMQCzF219VfqyF9DS_-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vlaQL1T0eXCjF8jF_I4Z-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="7emMQCzF219VfqyF9DS_-1" target="7emMQCzF219VfqyF9DS_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7emMQCzF219VfqyF9DS_-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-350" y="365" width="30" height="60" as="geometry" />
         </mxCell>
