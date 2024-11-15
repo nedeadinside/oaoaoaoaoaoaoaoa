@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="M3-d7XwUdVGt5cVRJlfs">
-    <mxGraphModel dx="2206" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1976" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="XOzI1J7WF0wXCPQD6KjD-23" value="Получить медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
           <mxGeometry x="50" y="410" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XOzI1J7WF0wXCPQD6KjD-24" value="Записаться на прием" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
+        <mxCell id="XOzI1J7WF0wXCPQD6KjD-24" value="&lt;i&gt;Записаться на прием&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
           <mxGeometry x="50" y="540" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XOzI1J7WF0wXCPQD6KjD-28" value="Пройти стационарное лечение" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
@@ -114,16 +114,6 @@
         <mxCell id="XOzI1J7WF0wXCPQD6KjD-11" value="Выдать медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
           <mxGeometry x="610" y="460" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XOzI1J7WF0wXCPQD6KjD-12" value="Завести медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
-          <mxGeometry x="450" y="380" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="XOzI1J7WF0wXCPQD6KjD-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="XOzI1J7WF0wXCPQD6KjD-7" source="XOzI1J7WF0wXCPQD6KjD-12" target="XOzI1J7WF0wXCPQD6KjD-11" edge="1">
-          <mxGeometry x="0.7234" y="18" width="160" relative="1" as="geometry">
-            <mxPoint x="480" y="370" as="sourcePoint" />
-            <mxPoint x="640" y="370" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="XOzI1J7WF0wXCPQD6KjD-18" value="Записать пациента на прием" style="ellipse;whiteSpace=wrap;html=1;" parent="XOzI1J7WF0wXCPQD6KjD-7" vertex="1">
           <mxGeometry x="610" y="565" width="140" height="70" as="geometry" />
         </mxCell>
@@ -164,6 +154,22 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="615" y="970" as="sourcePoint" />
             <mxPoint x="390" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_T13mV5AyCLr1rwIAsL-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="XOzI1J7WF0wXCPQD6KjD-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="970" as="sourcePoint" />
+            <mxPoint x="390" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XOzI1J7WF0wXCPQD6KjD-12" value="Завести медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XOzI1J7WF0wXCPQD6KjD-13" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0.731;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=6;" parent="1" source="XOzI1J7WF0wXCPQD6KjD-12" target="XOzI1J7WF0wXCPQD6KjD-11" edge="1">
+          <mxGeometry x="0.7234" y="18" width="160" relative="1" as="geometry">
+            <mxPoint x="110" y="730" as="sourcePoint" />
+            <mxPoint x="270" y="730" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

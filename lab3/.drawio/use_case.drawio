@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Страница — 1" id="uLeaWici2X27b1JlDTIq">
-    <mxGraphModel dx="2520" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,10 +79,10 @@
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-42" value="Выдать медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="640" y="390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-BuoO3h8ccpWQLP4G7d4-43" value="Завести медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
+        <mxCell id="-BuoO3h8ccpWQLP4G7d4-43" value="Завести медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="410" y="390" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-BuoO3h8ccpWQLP4G7d4-44" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-43" target="-BuoO3h8ccpWQLP4G7d4-42" edge="1">
+        <mxCell id="-BuoO3h8ccpWQLP4G7d4-44" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-43" target="-BuoO3h8ccpWQLP4G7d4-42" edge="1">
           <mxGeometry x="-0.1111" y="15" width="160" relative="1" as="geometry">
             <mxPoint x="510" y="300" as="sourcePoint" />
             <mxPoint x="670" y="300" as="targetPoint" />
@@ -95,14 +95,11 @@
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-46" value="Составить счет для пациента" style="ellipse;whiteSpace=wrap;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="640" y="600" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-47" target="_foJ53aK5BBoc3SyPS7k-3">
+        <mxCell id="_foJ53aK5BBoc3SyPS7k-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-47" target="_foJ53aK5BBoc3SyPS7k-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-47" value="Регстратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="990" y="500" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-BuoO3h8ccpWQLP4G7d4-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-47" target="-BuoO3h8ccpWQLP4G7d4-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="-BuoO3h8ccpWQLP4G7d4-47" target="-BuoO3h8ccpWQLP4G7d4-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -113,16 +110,16 @@
             <mxPoint x="790" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-2" value="Изменить запись&lt;div&gt;на прием&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-BuoO3h8ccpWQLP4G7d4-6">
+        <mxCell id="_foJ53aK5BBoc3SyPS7k-2" value="Изменить запись&lt;div&gt;на прием&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="40" y="660" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-3" value="Изменить запись пациента" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-BuoO3h8ccpWQLP4G7d4-6">
+        <mxCell id="_foJ53aK5BBoc3SyPS7k-3" value="CRUD&lt;br&gt;&amp;nbsp;запись пациента" style="ellipse;whiteSpace=wrap;html=1;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="640" y="700" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-5" value="Отменить запись" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-BuoO3h8ccpWQLP4G7d4-6">
+        <mxCell id="_foJ53aK5BBoc3SyPS7k-5" value="Отменить запись" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="-BuoO3h8ccpWQLP4G7d4-6" vertex="1">
           <mxGeometry x="410" y="700" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-BuoO3h8ccpWQLP4G7d4-6" source="_foJ53aK5BBoc3SyPS7k-5" target="_foJ53aK5BBoc3SyPS7k-3">
+        <mxCell id="_foJ53aK5BBoc3SyPS7k-6" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="-BuoO3h8ccpWQLP4G7d4-6" source="_foJ53aK5BBoc3SyPS7k-5" target="_foJ53aK5BBoc3SyPS7k-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="500" y="520" as="sourcePoint" />
             <mxPoint x="660" y="520" as="targetPoint" />
@@ -143,7 +140,7 @@
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-11" value="Получить медицинскую карту" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="610" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-BuoO3h8ccpWQLP4G7d4-12" value="Записаться на прием" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-BuoO3h8ccpWQLP4G7d4-12" value="&lt;i&gt;Записаться на прием&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="730" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-BuoO3h8ccpWQLP4G7d4-13" value="Пройти стационарное лечение" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -175,12 +172,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_foJ53aK5BBoc3SyPS7k-8" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_foJ53aK5BBoc3SyPS7k-2" target="-BuoO3h8ccpWQLP4G7d4-12">
-          <mxGeometry x="-0.6" y="-30" width="160" relative="1" as="geometry">
-            <mxPoint x="440" y="650" as="sourcePoint" />
-            <mxPoint x="600" y="650" as="targetPoint" />
-            <mxPoint as="offset" />
+        <mxCell id="k5a6eRNjmum8-1xSKjR8-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" target="_foJ53aK5BBoc3SyPS7k-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="535" as="sourcePoint" />
+            <mxPoint x="260" y="775" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k5a6eRNjmum8-1xSKjR8-3" value="CRU&lt;br&gt;Медицинская карта" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="k5a6eRNjmum8-1xSKjR8-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="730" as="sourcePoint" />
+            <mxPoint x="1000" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-BuoO3h8ccpWQLP4G7d4-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" parent="1" source="-BuoO3h8ccpWQLP4G7d4-47" target="k5a6eRNjmum8-1xSKjR8-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
