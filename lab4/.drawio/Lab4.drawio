@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.9.0" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.9.1" pages="3">
   <diagram name="PD" id="aSBptf9ghan6Mz4d21N_">
-    <mxGraphModel dx="2797" dy="2235" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="3084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,19 +8,19 @@
           <mxGeometry x="-16" y="-727.5" width="200" height="127.5" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=150;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-156" y="-370" width="480" height="130" as="geometry" />
+          <mxGeometry x="-156" y="-380" width="480" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Data Management&lt;/font&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-156" y="-370" width="150" height="30" as="geometry" />
+          <mxGeometry x="-156" y="-380" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-4" value="Patient DB" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="24" y="-320" width="120" height="65" as="geometry" />
+          <mxGeometry x="24" y="-330" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-9" value="Appointment DB" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-136" y="-320" width="120" height="65" as="geometry" />
+          <mxGeometry x="-136" y="-330" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-12" value="Employee DB" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="184" y="-320" width="120" height="65" as="geometry" />
+          <mxGeometry x="184" y="-330" width="120" height="65" as="geometry" />
         </mxCell>
         <mxCell id="ogs_vC3EqoCR6m5ORWt2-14" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=150;tabHeight=34;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="270" y="-743.75" width="212" height="143.75" as="geometry" />
@@ -58,14 +58,8 @@
             <mxPoint x="334" y="-538" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Xi6jY8Q6DWLJ2CRSD1dy-1" value="&lt;li data-sourcepos=&quot;7:1-7:179&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none;&quot;&gt;Web UI:&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Представляет собой пользовательский интерфейс системы, с которым взаимодействуют пользователи. Веб-интерфейс обеспечивает доступ к функционалу системы через браузер.&lt;/li&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li data-sourcepos=&quot;8:1-8:165&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none;&quot;&gt;PM System:&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Центральный пакет системы, отвечающий за управление проектами. Он координирует работу других компонентов и обеспечивает основную логику системы.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;8:1-8:165&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;b&gt;Data Management&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;:&amp;nbsp;Пакет, отвечающий за хранение и управление данными системы. Он включает в себя несколько баз данных:&lt;/span&gt;&lt;/li&gt;&lt;ul data-sourcepos=&quot;10:5-12:55&quot;&gt;&lt;li&gt;&lt;b&gt;Appointment DB&lt;/b&gt;: Хранит информацию о записях на прием. Включает данные о времени, дате и враче, к которому записан пациент.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;b&gt;Patient DB&lt;/b&gt;: Хранит информацию о пациентах. Включает личные данные, медицинскую историю и текущие назначения.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Employee DB&lt;/b&gt;: Хранит информацию о сотрудниках. Включает личные данные, должности, расписание и историю работы.&lt;/li&gt;&lt;/ul&gt;&lt;li data-sourcepos=&quot;13:1-13:177&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Hospital Management&lt;/span&gt;:&lt;/strong&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Пакет, отвечающий за общее управление больницей. Он координирует работу различных отделений.&lt;/li&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li data-sourcepos=&quot;14:1-14:217&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Patient Management&lt;/span&gt;:&lt;/strong&gt;&amp;nbsp;Пакет, отвечающий за управление пациентами. Он позволяет регистрировать новых пациентов, обновлять их данные и отслеживать историю их лечения.&lt;/li&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li data-sourcepos=&quot;15:1-15:174&quot; style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;strong style=&quot;forced-color-adjust: none;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Personal Management&lt;/span&gt;:&lt;/strong&gt;&amp;nbsp;Пакет, отвечающий за управление персоналом. Он включает в себя функции по учету сотрудников, их расписанию и распределению задач.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-586" y="-880" width="560" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="Xi6jY8Q6DWLJ2CRSD1dy-2" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=block;endFill=1;dashed=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.502;entryY=0.238;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ogs_vC3EqoCR6m5ORWt2-5" target="ogs_vC3EqoCR6m5ORWt2-6" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="95" y="-704" as="sourcePoint" />
-            <mxPoint x="94" y="-845" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Xi6jY8Q6DWLJ2CRSD1dy-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Описание&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;li data-sourcepos=&quot;7:1-7:179&quot;&gt;&lt;strong&gt;Web UI:&lt;/strong&gt;&amp;nbsp;Представляет собой пользовательский интерфейс системы, с которым взаимодействуют пользователи. Веб-интерфейс обеспечивает доступ к функционалу системы через браузер.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li data-sourcepos=&quot;8:1-8:165&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;PM System:&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Центральный пакет системы, отвечающий за управление проектами. Он координирует работу других компонентов и обеспечивает основную логику системы, он включает в себя следующие пакеты:&lt;/span&gt;&lt;/li&gt;&lt;ul data-sourcepos=&quot;10:5-12:55&quot;&gt;&lt;li&gt;&lt;strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Hospital Management&lt;/span&gt;:&lt;/strong&gt;&amp;nbsp;Пакет, отвечающий за общее управление больницей. Он координирует работу различных отделений.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Patient Management&lt;/span&gt;:&lt;/strong&gt;&amp;nbsp;Пакет, отвечающий за управление пациентами. Он позволяет регистрировать новых пациентов, обновлять их данные и отслеживать историю их лечения.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;span style=&quot;text-align: center;&quot;&gt;Personal Management&lt;/span&gt;:&lt;/strong&gt;&amp;nbsp;Пакет, отвечающий за управление персоналом. Он включает в себя функции по учету сотрудников, их расписанию и распределению задач.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Data Control&lt;/b&gt;: Пакет, который отвечает за управления данными внутри&amp;nbsp;&lt;b&gt;PM System&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;li data-sourcepos=&quot;8:1-8:165&quot;&gt;&lt;b&gt;Data Management&lt;/b&gt;:&amp;nbsp;Пакет, отвечающий за хранение и управление данными системы. Он включает в себя несколько баз данных:&lt;/li&gt;&lt;ul data-sourcepos=&quot;10:5-12:55&quot;&gt;&lt;li&gt;&lt;b&gt;Appointment DB&lt;/b&gt;: Хранит информацию о записях на прием. Включает данные о времени, дате и враче, к которому записан пациент.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&amp;nbsp;&lt;b&gt;Patient DB&lt;/b&gt;: Хранит информацию о пациентах. Включает личные данные, медицинскую историю и текущие назначения.&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Employee DB&lt;/b&gt;: Хранит информацию о сотрудниках. Включает личные данные, должности, расписание и историю работы.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-570" y="-1238.75" width="540" height="508.75" as="geometry" />
         </mxCell>
         <mxCell id="Xi6jY8Q6DWLJ2CRSD1dy-4" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Hospital Management&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="-940" width="150" height="30" as="geometry" />
@@ -91,11 +85,23 @@
         <mxCell id="Xi6jY8Q6DWLJ2CRSD1dy-12" value="Patient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="338" y="-670" width="76" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="ZsFxPRQCoqty3QuOFXwJ-2" value="Data Control" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="-706.25" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsFxPRQCoqty3QuOFXwJ-3" value="" style="endArrow=none;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=70.75;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=200;entryDy=49.5;entryPerimeter=0;" parent="1" source="ogs_vC3EqoCR6m5ORWt2-5" target="ZsFxPRQCoqty3QuOFXwJ-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="194" y="-647" as="sourcePoint" />
+            <mxPoint x="280" y="-884" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsFxPRQCoqty3QuOFXwJ-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.502;entryY=0.226;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;endArrow=block;endFill=1;dashed=1;" parent="1" source="ogs_vC3EqoCR6m5ORWt2-5" target="ogs_vC3EqoCR6m5ORWt2-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="u4wr_5_swHDE5P8ldHbZ" name="CD">
-    <mxGraphModel dx="3125" dy="2412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1611" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,10 +279,12 @@
         <mxCell id="EM3p1Q0ZwaC3vJSi03-o-4" value="" style="html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-718" y="-830" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EM3p1Q0ZwaC3vJSi03-o-5" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" parent="1" source="EM3p1Q0ZwaC3vJSi03-o-4" target="EM3p1Q0ZwaC3vJSi03-o-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="EM3p1Q0ZwaC3vJSi03-o-5" value="" style="endArrow=none;html=1;rounded=0;align=center;verticalAlign=top;endFill=0;labelBackgroundColor=none;endSize=2;" parent="1" source="EM3p1Q0ZwaC3vJSi03-o-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-761" y="-815" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="EM3p1Q0ZwaC3vJSi03-o-6" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;" parent="1" vertex="1">
+        <mxCell id="EM3p1Q0ZwaC3vJSi03-o-6" value="" style="ellipse;html=1;fontSize=11;align=center;fillColor=none;points=[];aspect=fixed;resizable=0;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;flipH=1;perimeterSpacing=0;strokeColor=default;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="-769" y="-819" width="8" height="8" as="geometry" />
         </mxCell>
         <mxCell id="EM3p1Q0ZwaC3vJSi03-o-12" value="«&lt;b&gt;Component&lt;/b&gt;»&lt;br&gt;&lt;b&gt;Data Management&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
@@ -293,84 +301,84 @@
             <mxPoint x="146" y="-535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kxWj0dfwJBvAx8vpPhkX-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Описание&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;На данной диаграмме представлены два основных компонента системы: &lt;b&gt;PM Management&lt;/b&gt; и &lt;b&gt;Data Management&lt;/b&gt;, последний отвечает за хранение и работу с данными о пациентах и сотрудниках(врачах), первый распишем подробнее ниже:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Hospital Management&lt;/b&gt; компонент управления больницей, включает в себя компоненты &lt;b&gt;Hospital&lt;/b&gt; - сама больница( вот тут я не знаю, мне кажется стоит оставить для связей но я не уверен), он требует интерфейсы для управления пациентами и отделениями их предоставляют&amp;nbsp;&lt;b&gt;Registry&lt;/b&gt;&amp;nbsp;и &lt;b&gt;Department, Registry&amp;nbsp;&lt;/b&gt;также предоставляет интерфейс для внешнего взаимодействия(предполагаются записи&amp;nbsp; на прием и тп.)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Patient Management &lt;/b&gt;- компонент для взаимодействия с пациентами, требует интерфейс IAppointment&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Personal Management&lt;/b&gt; - компонент для управления персоналом, предоставляет интерфейс для &quot;обслуживания&quot; пациента&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Appointment&lt;/b&gt; - компонент - связующее звено между &lt;b&gt;Patient Management&lt;/b&gt; и &lt;b&gt;Personal Management&lt;/b&gt;, предоставляет интерфейс &lt;b&gt;Patient Management&lt;/b&gt; и требует интерфейс от &lt;b&gt;Personal Management&lt;/b&gt;, предполагает в себе реализацию взаимодействия медицинского персонала и пациентов на физическом уровне&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kxWj0dfwJBvAx8vpPhkX-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font&gt;Описание&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;На данной диаграмме представлены два основных компонента системы: &lt;b&gt;PM System&lt;/b&gt;&amp;nbsp;и &lt;b&gt;Data Management&lt;/b&gt;, последний отвечает за хранение и работу с данными о пациентах и сотрудниках(врачах), первый распишем подробнее ниже:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Hospital Management&lt;/b&gt; компонент управления больницей, включает в себя компоненты &lt;b&gt;Hospital&lt;/b&gt; - сама больница, он требует интерфейсы для управления пациентами и отделениями их предоставляют&amp;nbsp;&lt;b&gt;Registry&lt;/b&gt;&amp;nbsp;и &lt;b&gt;Department, Registry&amp;nbsp;&lt;/b&gt;также предоставляет интерфейс для внешнего взаимодействия(предполагаются записи на прием и тп.)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Patient Management &lt;/b&gt;- компонент для взаимодействия с пациентами, требует интерфейс IAppointment&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Personal Management&lt;/b&gt; - компонент для управления персоналом, предоставляет интерфейс для &quot;обслуживания&quot; пациента&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Appointment&lt;/b&gt; - компонент - связующее звено между &lt;b&gt;Patient Management&lt;/b&gt; и &lt;b&gt;Personal Management&lt;/b&gt;, предоставляет интерфейс &lt;b&gt;Patient Management&lt;/b&gt; и требует интерфейс от &lt;b&gt;Personal Management&lt;/b&gt;, предполагает в себе реализацию взаимодействия медицинского персонала и пациентов на физическом уровне&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="287" y="-1150" width="540" height="429" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="2JRktEolhZ1kJpLeAFFi" name="DD">
-    <mxGraphModel dx="1970" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="784" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="okp8p67QOXLGA2Up4JoW-1" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;DataBase Server&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-1" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;DataBase Server&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="47.75" y="352" width="140" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-7" value="&amp;nbsp;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Server&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-7" value="&amp;nbsp;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;div&gt;Server&lt;/div&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="307.75" y="250" width="220" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-11" target="okp8p67QOXLGA2Up4JoW-25">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-11" target="okp8p67QOXLGA2Up4JoW-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-11" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;PatientManagement&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-11" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;PatientManagement&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="317.75" y="415" width="185" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-12" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;RegistryManagement&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-12" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;RegistryManagement&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="317.75" y="310" width="185" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-13" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;WebServer&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-13" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;WebServer&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="681.75" y="318.25" width="130" height="58.5" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-24" target="okp8p67QOXLGA2Up4JoW-13">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-24" target="okp8p67QOXLGA2Up4JoW-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-14" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Browser&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-14" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;Browser&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="681.75" y="110" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=32.5;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=135;entryDy=220;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-1" target="okp8p67QOXLGA2Up4JoW-7">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=32.5;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=135;entryDy=220;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-1" target="okp8p67QOXLGA2Up4JoW-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;ODBC&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;ODBC&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="217.75" y="352" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-12" target="okp8p67QOXLGA2Up4JoW-13">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-12" target="okp8p67QOXLGA2Up4JoW-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;LocalNetwork&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;LocalNetwork&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="547.75" y="316" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-22" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-22" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="742.75" y="288" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-23" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-23" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="742.75" y="180" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-25" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;EmployeWorkstation&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-25" value="&lt;div&gt;&lt;b&gt;&lt;u&gt;&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;EmployeWorkstation&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="334" y="610" width="152.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-27" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-27" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="402.75" y="590" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-28" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-28" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="402.75" y="500" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-14" target="okp8p67QOXLGA2Up4JoW-24">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-14" target="okp8p67QOXLGA2Up4JoW-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="746.75" y="180" as="sourcePoint" />
             <mxPoint x="746.75" y="312" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;https&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;https&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="691.75" y="240" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;LocalNetwork&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;LocalNetwork&amp;gt;&amp;gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="355.25" y="540" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Описание&lt;/h1&gt;&lt;div&gt;На данной диаграмме изображена диаграмма развертывания для больницы на ней есть несколько элементов:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;DataBase Server, соответственно сервер на котором располагаются базы данных с информацией о пациентах и сотрудниках&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Server - сервер на котором находятся модули: RegistryManagement и PatientManagement, последний связан по внутренней сети с компьютерами сотрудников(врачей) для редактирования и внесения информации о пациентах&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;WebServer - сервер, который реализует функционал взаимодействия с регистратурой через Browser&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Описание&lt;/h1&gt;&lt;div&gt;На данной диаграмме изображена диаграмма развертывания для больницы на ней есть несколько элементов:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;DataBase Server, соответственно сервер на котором располагаются базы данных с информацией о пациентах и сотрудниках&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Server - сервер на котором находятся модули: RegistryManagement и PatientManagement, последний связан по внутренней сети с компьютерами сотрудников(врачей) для редактирования и внесения информации о пациентах&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;WebServer - сервер, который реализует функционал взаимодействия с регистратурой через Browser&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="16" y="10" width="531.75" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="okp8p67QOXLGA2Up4JoW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=97.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=87.5;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="okp8p67QOXLGA2Up4JoW-12" target="okp8p67QOXLGA2Up4JoW-11">
+        <mxCell id="okp8p67QOXLGA2Up4JoW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=97.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=87.5;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="okp8p67QOXLGA2Up4JoW-12" target="okp8p67QOXLGA2Up4JoW-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
