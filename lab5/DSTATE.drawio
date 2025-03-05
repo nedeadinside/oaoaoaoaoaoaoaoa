@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="-m4PaweDBiNdSOEntVrO">
+    <mxGraphModel dx="2206" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-27" value="" style="swimlane;startSize=0;swimlaneFillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-790" y="30" width="750" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-29" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Текстовое описание&lt;/h1&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;ol&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Запись создана&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Жизненный цикл начинается с создания записи на прием&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Запись отменена: Если система оказывается в данном состоянии, то происходит soft delete записи на прием&lt;br&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Получил лечение: финальное состояние системы на котором пациент получает лечение и запись на прием считается завершенной. Наступает если пациент пришел на прием и не отменил запись.&lt;/li&gt;&lt;/ol&gt;&lt;/b&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;/strong&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="t7ONzRHdKDzMkgA8ajBH-27" vertex="1">
+          <mxGeometry x="10" y="610" width="730" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-30" value="" style="swimlane;startSize=0;swimlaneFillColor=default;" parent="t7ONzRHdKDzMkgA8ajBH-27" vertex="1">
+          <mxGeometry y="50" width="750" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-6" value="&lt;div style=&quot;&quot;&gt;Получил лечение&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="t7ONzRHdKDzMkgA8ajBH-30" vertex="1">
+          <mxGeometry x="430.56" y="380" width="100.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-21" value="[пациент пришел на прием]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="t7ONzRHdKDzMkgA8ajBH-30" vertex="1">
+          <mxGeometry x="480" y="300" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-23" value="[пациент не пришел на прием &lt;br&gt;или отменил запись]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="t7ONzRHdKDzMkgA8ajBH-30" vertex="1">
+          <mxGeometry x="180" y="110" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Запись создана&lt;/span&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="t7ONzRHdKDzMkgA8ajBH-30" vertex="1">
+          <mxGeometry x="429.12" y="140" width="103.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="t7ONzRHdKDzMkgA8ajBH-30" source="t7ONzRHdKDzMkgA8ajBH-3" target="t7ONzRHdKDzMkgA8ajBH-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480.99" y="290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-2" value="" style="ellipse;fillColor=strokeColor;html=1;" parent="t7ONzRHdKDzMkgA8ajBH-30" vertex="1">
+          <mxGeometry x="465.99" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="t7ONzRHdKDzMkgA8ajBH-30" source="t7ONzRHdKDzMkgA8ajBH-2" target="t7ONzRHdKDzMkgA8ajBH-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-1" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;Диаграмма состояний записи на прием&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-774" y="20" width="353.12" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="1" source="t7ONzRHdKDzMkgA8ajBH-5" target="t7ONzRHdKDzMkgA8ajBH-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-5" value="&lt;div style=&quot;&quot;&gt;Запись отменена&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-654" y="110" width="103.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-7" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="1" vertex="1">
+          <mxGeometry x="-323.98" y="580" width="29.99" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-14" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="1" vertex="1">
+          <mxGeometry x="-774" y="110" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t7ONzRHdKDzMkgA8ajBH-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" parent="1" source="t7ONzRHdKDzMkgA8ajBH-6" target="t7ONzRHdKDzMkgA8ajBH-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L5Y1UjXHJdynNjElC6Gt-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="t7ONzRHdKDzMkgA8ajBH-3" target="t7ONzRHdKDzMkgA8ajBH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
